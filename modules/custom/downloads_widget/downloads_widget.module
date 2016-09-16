@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains downloads_widget.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function downloads_widget_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the downloads_widget module.
+    case 'help.page.downloads_widget':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Allows users to download files') . '</p>';
+      return $output;
+
+    default:
+  }
+}

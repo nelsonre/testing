@@ -1,0 +1,32 @@
+/**
+ * Place your custom styles here.
+ */
+
+.header-wrapper {
+    background: url(../images/cover.jpeg) no-repeat 0 0;
+    background-size: cover;
+    text-align: center;
+    
+    color: white;
+    padding: 15em 0;
+}
+
+.header-wrapper .page-header {
+    border-bottom: none;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px rgba(23,23,23,1);
+    /*background: rgba(0,0,0,0.5); */
+}
+
+
+.grid-item-title {
+    position: relative;
+    top: -60px;
+    margin-left: 10px;
+}
+
+.grid-item-title a {
+    color: white;
+    text-shadow: 1px 1px 1px rgba(23,23,23,1);
+    text-decoration: none;
+}

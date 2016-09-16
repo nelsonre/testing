@@ -1,0 +1,26 @@
+## YAML Template.
+---
+name: photofolio
+type: theme
+description: 'portfolio theme'
+core: 8.x
+base theme: classy
+regions:
+  header: Header
+  primary_menu: 'Primary Menu'
+  secondary_menu: 'Secondary menu'
+  breadcrumb: 'Breadcrumb'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+  footer: 'Footer'
+  page_top: 'Page Top'
+  page_bottom: 'Page Bottom'
+  big_footer: 'Big Footer'
+  
+libraries:
+  - 'photofolio/global-styling'
+
+
