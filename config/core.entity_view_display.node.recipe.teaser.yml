@@ -1,0 +1,46 @@
+uuid: 09a64512-7055-4448-8726-3069eac48e15
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.recipe.body
+    - field.field.node.recipe.field_cooking_time
+    - field.field.node.recipe.field_cuisines
+    - field.field.node.recipe.field_difficulty_level
+    - field.field.node.recipe.field_eventbrite_id
+    - field.field.node.recipe.field_formats
+    - field.field.node.recipe.field_ingredients
+    - field.field.node.recipe.field_off_site_link
+    - field.field.node.recipe.field_preparation_time
+    - field.field.node.recipe.field_recipe_images
+    - field.field.node.recipe.field_steps
+    - node.type.recipe
+  module:
+    - text
+    - user
+id: node.recipe.teaser
+targetEntityType: node
+bundle: recipe
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  field_cooking_time: true
+  field_cuisines: true
+  field_difficulty_level: true
+  field_eventbrite_id: true
+  field_formats: true
+  field_ingredients: true
+  field_off_site_link: true
+  field_preparation_time: true
+  field_recipe_images: true
+  field_steps: true

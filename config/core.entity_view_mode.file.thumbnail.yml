@@ -1,0 +1,12 @@
+uuid: e9d22664-7689-4bea-a2eb-8b8a37519f26
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+_core:
+  default_config_hash: avq3kRg_RNYPuO_vV_TsfJ6i2s-CpzADcAKbKjZozqE
+id: file.thumbnail
+label: Thumbnail
+targetEntityType: file
+cache: true

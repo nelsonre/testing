@@ -1,0 +1,22 @@
+uuid: 864acc4e-f7f4-4f47-bc6e-6dcfd5d9c0e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.landing_page.body
+    - field.field.node.landing_page.field_calls_to_action
+    - node.type.landing_page
+  module:
+    - user
+id: node.landing_page.default
+targetEntityType: node
+bundle: landing_page
+mode: default
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_calls_to_action: true

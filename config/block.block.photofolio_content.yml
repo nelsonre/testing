@@ -1,0 +1,22 @@
+uuid: 3b2341a3-c56f-488a-adea-065a9b09bd80
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - photofolio
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: photofolio_content
+theme: photofolio
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

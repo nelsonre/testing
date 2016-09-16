@@ -1,0 +1,19 @@
+uuid: a2b48649-b8c6-4003-90b0-9f9b842f5577
+langcode: en
+status: true
+dependencies:
+  module:
+    - interval
+    - node
+id: node.field_preparation_time
+field_name: field_preparation_time
+entity_type: node
+type: interval
+settings: {  }
+module: interval
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

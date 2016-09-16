@@ -1,0 +1,31 @@
+uuid: 7a06a148-7601-485b-9f14-9108b3cc3b8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - ctools
+    - system
+  theme:
+    - photofolio
+id: useraccountmenu
+theme: photofolio
+region: sidebar_second
+weight: -5
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  'entity_bundle:block_content':
+    id: 'entity_bundle:block_content'
+    bundles:
+      basic: basic
+    negate: false
+    context_mapping: {  }

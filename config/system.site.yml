@@ -1,0 +1,14 @@
+uuid: 054d7d8b-9b36-4367-94cc-ea50d63cccf2
+name: drupal8
+mail: dkjdjsk@kjkdjakdj.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

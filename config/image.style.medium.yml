@@ -1,0 +1,16 @@
+uuid: c25f0520-bc9b-481a-9124-abad805e11d9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Y9NmnZHQq20ASSyTNA6JnwtWrJJiSajOehGDtmUFdM0
+name: medium
+label: 'Medium (400×400)'
+effects:
+  38fd1fab-ac1a-4ae5-9eef-b85b5203d4f1:
+    uuid: 38fd1fab-ac1a-4ae5-9eef-b85b5203d4f1
+    id: image_scale_and_crop
+    weight: 3
+    data:
+      width: 400
+      height: 400

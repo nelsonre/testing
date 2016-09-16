@@ -1,0 +1,27 @@
+uuid: 0ef01e4c-0cc3-4fa9-86c8-d10fa9d8a4d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - masquerade
+  theme:
+    - photofolio
+id: masquerade_2
+theme: photofolio
+region: sidebar_second
+weight: -7
+provider: null
+plugin: masquerade
+settings:
+  id: masquerade
+  label: Masquerade
+  provider: masquerade
+  label_display: visible
+visibility:
+  'entity_bundle:block_content':
+    id: 'entity_bundle:block_content'
+    bundles:
+      basic: basic
+    negate: false
+    context_mapping: {  }

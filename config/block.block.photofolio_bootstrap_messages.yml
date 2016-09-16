@@ -1,0 +1,22 @@
+uuid: 0b8c9f5a-9d17-4a47-bec1-7f3edffeca22
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - photofolio_bootstrap
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: photofolio_bootstrap_messages
+theme: photofolio_bootstrap
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

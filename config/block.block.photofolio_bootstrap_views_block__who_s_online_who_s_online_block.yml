@@ -1,0 +1,31 @@
+uuid: bab4996f-2a29-461d-9be2-134faf997cb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.who_s_online
+  module:
+    - ctools
+    - views
+  theme:
+    - photofolio_bootstrap
+id: photofolio_bootstrap_views_block__who_s_online_who_s_online_block
+theme: photofolio_bootstrap
+region: footer
+weight: -4
+provider: null
+plugin: 'views_block:who_s_online-who_s_online_block'
+settings:
+  id: 'views_block:who_s_online-who_s_online_block'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:block_content':
+    id: 'entity_bundle:block_content'
+    bundles:
+      basic: basic
+    negate: false
+    context_mapping: {  }

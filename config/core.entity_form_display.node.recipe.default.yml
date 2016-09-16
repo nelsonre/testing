@@ -1,0 +1,135 @@
+uuid: eae6b47c-b4d1-47b1-b245-839e1aa1d460
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.recipe.body
+    - field.field.node.recipe.field_cooking_time
+    - field.field.node.recipe.field_cuisines
+    - field.field.node.recipe.field_difficulty_level
+    - field.field.node.recipe.field_eventbrite_id
+    - field.field.node.recipe.field_formats
+    - field.field.node.recipe.field_ingredients
+    - field.field.node.recipe.field_off_site_link
+    - field.field.node.recipe.field_preparation_time
+    - field.field.node.recipe.field_recipe_images
+    - field.field.node.recipe.field_steps
+    - image.style.thumbnail
+    - node.type.recipe
+  module:
+    - image
+    - interval
+    - link
+    - path
+    - text
+id: node.recipe.default
+targetEntityType: node
+bundle: recipe
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 6
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  field_cooking_time:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: interval_default
+  field_cuisines:
+    weight: 28
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+  field_difficulty_level:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_eventbrite_id:
+    weight: 31
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+  field_formats:
+    weight: 29
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+  field_ingredients:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_off_site_link:
+    weight: 30
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+  field_preparation_time:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: interval_default
+  field_recipe_images:
+    weight: 9
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  field_steps:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  path:
+    type: path
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

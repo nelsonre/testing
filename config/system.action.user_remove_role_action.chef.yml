@@ -1,0 +1,14 @@
+uuid: 7d9f1968-15c9-4e5f-8120-3f4a8cd844c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.chef
+  module:
+    - user
+id: user_remove_role_action.chef
+label: 'Remove the Chef role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: chef

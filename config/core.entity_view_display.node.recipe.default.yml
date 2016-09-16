@@ -1,0 +1,112 @@
+uuid: 214c3239-29c0-46ec-af7c-bb1196ef0d9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.recipe.body
+    - field.field.node.recipe.field_cooking_time
+    - field.field.node.recipe.field_cuisines
+    - field.field.node.recipe.field_difficulty_level
+    - field.field.node.recipe.field_eventbrite_id
+    - field.field.node.recipe.field_formats
+    - field.field.node.recipe.field_ingredients
+    - field.field.node.recipe.field_off_site_link
+    - field.field.node.recipe.field_preparation_time
+    - field.field.node.recipe.field_recipe_images
+    - field.field.node.recipe.field_steps
+    - node.type.recipe
+  module:
+    - eventbrite_formatter
+    - image
+    - interval
+    - link
+    - options
+    - text
+    - user
+id: node.recipe.default
+targetEntityType: node
+bundle: recipe
+mode: default
+content:
+  body:
+    label: above
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  field_cooking_time:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: interval_default
+  field_cuisines:
+    weight: 8
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_difficulty_level:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_eventbrite_id:
+    weight: 11
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: event_brite_field_formatter
+  field_formats:
+    weight: 9
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_ingredients:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_off_site_link:
+    weight: 10
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_preparation_time:
+    weight: 7
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: interval_default
+  field_recipe_images:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_steps:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,31 @@
+uuid: 75bd61ac-b904-44c3-916e-5b85c2bbc816
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.who_s_online
+  module:
+    - ctools
+    - views
+  theme:
+    - photofolio
+id: views_block__who_s_online_who_s_online_block
+theme: photofolio
+region: sidebar_second
+weight: -4
+provider: null
+plugin: 'views_block:who_s_online-who_s_online_block'
+settings:
+  id: 'views_block:who_s_online-who_s_online_block'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:block_content':
+    id: 'entity_bundle:block_content'
+    bundles:
+      basic: basic
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,21 @@
+uuid: 01fdd8b6-75c1-43db-a4e4-e21f5b05970d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_preparation_time
+    - node.type.recipe
+  module:
+    - interval
+id: node.recipe.field_preparation_time
+field_name: field_preparation_time
+entity_type: node
+bundle: recipe
+label: 'Preparation Time'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: interval

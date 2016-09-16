@@ -1,0 +1,24 @@
+uuid: 48d23eba-1b83-49a7-bf61-2442984286f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.related_recipes
+  module:
+    - views
+  theme:
+    - photofolio_bootstrap
+id: photofolio_bootstrap_views_block__related_recipes_block_1
+theme: photofolio_bootstrap
+region: footer
+weight: -6
+provider: null
+plugin: 'views_block:related_recipes-block_1'
+settings:
+  id: 'views_block:related_recipes-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

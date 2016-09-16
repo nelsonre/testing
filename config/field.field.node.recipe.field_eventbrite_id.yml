@@ -1,0 +1,21 @@
+uuid: 058976c3-3361-4c90-9f56-71cfd9fb24c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_eventbrite_id
+    - node.type.recipe
+  module:
+    - text
+id: node.recipe.field_eventbrite_id
+field_name: field_eventbrite_id
+entity_type: node
+bundle: recipe
+label: 'EventBrite ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

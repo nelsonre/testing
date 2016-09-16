@@ -1,0 +1,19 @@
+uuid: afcdc044-d0ee-413d-b848-a49e09b7cee3
+langcode: en
+status: true
+dependencies:
+  module:
+    - interval
+    - node
+id: node.field_cooking_time
+field_name: field_cooking_time
+entity_type: node
+type: interval
+settings: {  }
+module: interval
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
